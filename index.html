@@ -3,12 +3,43 @@
 
 <head>
     <meta chareset="UTF-8">
+    <!--Material Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500|Roboto:300,400,500" rel="stylesheet">
     <title>Media Player</title>
+    <!--jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <section>
+        <div class="image"></div>
+        <div class="headings">
+            <h1>Titanium</h1>
+            <h2> David Guetta & Sia</h2>
+        </div>
+        <div class="loader">
+            <div class="progressBar">
+                <div class="myBar">
+                </div>
+            </div>
+            <span id="cur">0:00</span>
+            <span id="tot">0:00</span>
+        </div>
 
+        <div class="footer">
+            <i class="material-icons fav">
+                        favorite_border
+                    </i>
+        </div>
+
+    </section>
+
+
+
+    <audio id="music">
+    <source src="https://filehosting12345.000webhostapp.com/tumblr_lpr3ppkTEO1qb6ygto1.mp3" type="audio/mp3">
+</audio>
 </body>
 
 </html>
